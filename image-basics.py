@@ -1,6 +1,6 @@
 import cv2
 
-image = cv2.imread(r'images\hat_cat.png')
+image = cv2.imread(r'images\hat_cat.jpg')
 cv2.imshow('Original image', image)
 
 (b, g, r) = image[0, 0]  # BRG
